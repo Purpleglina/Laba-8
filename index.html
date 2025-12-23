@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Анкета модели | Model Agency</title>
+</head>
+<body>
+
+<h2 align="center">Анкета кандидата в модельное агентство</h2>
+
+<table border="1" align="center" cellpadding="5">
+<form action="mailto:test@mail.ru" method="post">
+
+<tr>
+    <td>Имя:</td>
+    <td><input type="text" name="firstname" size="25"></td>
+</tr>
+
+<tr>
+    <td>Фамилия:</td>
+    <td><input type="text" name="lastname" size="25"></td>
+</tr>
+
+<tr>
+    <td>E-mail:</td>
+    <td><input type="text" name="email" size="25"></td>
+</tr>
+
+<tr>
+    <td>Пароль:</td>
+    <td><input type="password" name="password"></td>
+</tr>
+
+<tr>
+    <td>Пол:</td>
+    <td>
+        <input type="radio" name="gender" value="female" checked> Женский
+        <input type="radio" name="gender" value="male"> Мужской
+    </td>
+</tr>
+
+<tr>
+    <td>Параметры внешности:</td>
+    <td>
+        <input type="checkbox" name="params1"> Высокий рост<br>
+        <input type="checkbox" name="params2"> Модельная фигура<br>
+        <input type="checkbox" name="params3"> Фотогеничность
+    </td>
+</tr>
+
+<tr>
+    <td>Опыт работы:</td>
+    <td>
+        <select name="experience">
+            <option value="no">Нет опыта</option>
+            <option value="beginner">Начальный</option>
+            <option value="professional">Профессиональный</option>
+        </select>
+    </td>
+</tr>
+
+<tr>
+    <td>О себе:</td>
+    <td>
+        <textarea name="about" rows="4" cols="30">
+Краткая информация о себе
+        </textarea>
+    </td>
+</tr>
+
+<tr>
+    <td>Загрузить фото:</td>
+    <td><input type="file" name="photo"></td>
+</tr>
+
+<tr>
+    <td align="center">
+        <input type="submit" value="Отправить">
+    </td>
+    <td align="center">
+        <input type="reset" value="Очистить">
+    </td>
+</tr>
+
+</form>
+</table>
+
+</body>
+</html>
